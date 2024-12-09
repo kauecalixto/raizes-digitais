@@ -7,8 +7,9 @@ function toggleMenu() {
   // Select all existing cards in the document
   const cards = document.querySelectorAll(".card");
   
-  // Add hover effects and click events
-  cards.forEach((card) => {
+  
+   // Add hover effects and click events
+   cards.forEach((card) => {
     card.addEventListener("click", (event) => {
       event.preventDefault(); // Prevent immediate navigation
   
