@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Quicksand:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --color1: #1E1F21;
+    --color2: #5AA082;
+    --color3: #FFFFFF;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--color1);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+}
+
+header #logo {
+    width: 20vw;
+}
+
+header #logo h1{
+    text-align: center;
+    color: var(--color2);
+}
+
+header nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 45vw;
+    height: 7vh;
+}
+
+header nav a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: var(--color3);
+    transition: background 0.3s, transform 0.2s;
+}
+
+header nav a:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    background-color: var(--color2);
+}
+
+footer p {
+    color: var(--color3);
+    font-size: 1.1rem;
+}
+
+@media (max-width: 480px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 60vh;
+    }
+
+    header #logo {
+        width: 75vw;
+    }
+
+    header nav {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 40vh;
+    }
+
+    footer p {
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    header #logo {
+        width: 30vw;
+    }
+
+    header nav {
+        width: 90vw;
+    }
+}

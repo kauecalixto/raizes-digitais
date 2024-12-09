@@ -1,0 +1,568 @@
+#collectionObjects #sectionNamePage {
+    display: flex;
+    justify-content: end;
+    height: 75vh;
+}
+
+#collectionObjects #namePage {
+    -webkit-text-stroke-width: .2rem;
+    -webkit-text-stroke-color: var(--color2);
+    font-size: 4rem;
+    font-family: Arial, sans-serif;
+}
+
+#collectionObjects #boxNamePage {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+
+#collectionAfro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: var(--color3);
+}
+
+.titleSection {
+    width: 33vw;
+    height: 25vh;
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+.titleSection span{
+    -webkit-text-stroke-width: .1rem;
+    -webkit-text-stroke-color: var(--color2);
+    color: var(--color1);
+    font-family: Arial, sans-serif;
+}
+
+#collectionAfro #imgAfro1{
+    display: flex;
+    justify-content: space-evenly;
+    height: 97vh;
+}
+
+.titleImg {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--color2);
+}
+
+#imgAfro1 .boxText {
+    width: 50vw;
+    height: 38vh;
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+}
+
+#imgAfro1 .boxText .infoBox {
+    width: 50vw;
+    height: 38vh;
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+}
+
+.source {
+    font-weight: 600;
+}
+
+#imgAfro1 #boxImg1 {
+    width: 25vw;
+    height: 80vh;
+}
+
+#imgAfro1 #boxImg1 img {
+    width: 25vw;
+    height: 80vh;
+    border-radius: 15px;
+}
+
+#imgAfro2 {
+    display: flex;
+    justify-content: space-evenly;
+    height: 87vh;
+}
+
+#imgAfro2 #infoBox2 #boxText2 {
+    width: 45vw;
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+    text-align: end;
+}
+
+#imgAfro2 #infoBox2 #source2 {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 8vh;
+}
+
+#imgAfro2 #boxImg2 img {
+    width: 40vw;
+    height: 65vh;
+    border-radius: 15px;
+}
+
+#imgAfro3 {
+    display: flex;
+    justify-content: space-evenly;
+    height: 120vh;
+}
+
+#imgAfro3 #boxImg3 img {
+    width: 33vw;
+    height: 72vh;
+    border-radius: 15px;
+}
+
+#imgAfro3 #infoBox3 {
+    width: 45vw;
+    height: 50vh;
+}
+
+#imgAfro3 #infoBox3 #boxText3 {
+    width: 45vw;
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+}
+
+#imgAfro3 #infoBox3 #source3 {
+    display: flex;
+    align-items: center;
+    height: 8vh;
+}
+
+
+
+#collectionIndi {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: var(--color3);
+}
+
+#imgIndi1 {
+    display: flex;
+    justify-content: space-evenly;
+    height: 90vh;
+}
+
+#imgIndi1 #boxImgIndi1 #cocar {
+    width: 29vw;
+    height: 70vh;
+    border-radius: 15px;
+}
+
+#imgIndi1 #infoBoxIndi1 {
+    width: 50vw;
+    height: 50vh;
+}
+
+#infoBoxIndi1 #boxTextIndi1 {
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+}
+
+#imgIndi2 {
+    display: flex;
+    justify-content: space-evenly;
+    height: 95vh;
+}
+
+#imgIndi2 #boxImgIndi2 img {
+    width: 29vw;
+    height: 70vh;
+    border-radius: 15px;
+}
+
+#imgIndi2 #infoBoxIndi2 {
+    width: 50vw;
+    height: 50vh;
+}
+
+#infoBoxIndi2 #boxTextIndi2 {
+    text-align: end;
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+}
+
+#imgIndi3 {
+    display: flex;
+    justify-content: space-evenly;
+    height: 90vh;
+}
+
+#imgIndi3 #boxImgIndi3 img {
+    width: 29vw;
+    height: 70vh;
+    border-radius: 15px;
+}
+
+#imgIndi3 #infoBoxIndi3 {
+    width: 50vw;
+    height: 50vh;
+}
+
+#infoBoxIndi3 #boxTextIndi3 {
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+}
+
+@media (max-width: 480px) {
+    #collectionObjects #boxNamePage {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .titleSection {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .titleSection span {
+        width: 40%;
+    }
+
+    #collectionAfro #imgAfro1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 200vh;
+    }
+
+    #imgAfro1 #boxImg1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+    }
+
+    #imgAfro1 #boxImg1 img {
+        width: 90vw;
+        height: 80vh;
+        border-radius: 15px;
+    }
+
+    #collectionAfro .infoBox1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        height: 90vh;
+        text-align: justify;
+    }
+
+    #imgAfro1 .boxText {
+        width: 90vw;
+        height: 100%;
+    }
+
+    #imgAfro2 {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 190vh;
+    }
+
+    #imgAfro2 #boxImg2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        height: 65vh;
+    }
+
+    #imgAfro2 #boxImg2 img {
+        width: 90vw;
+        height: 53vh;
+    }
+
+    #imgAfro2 #infoBox2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    #imgAfro2 #infoBox2 #boxText2 {
+        width: 90%;
+        text-align: justify;
+    }
+    
+    #imgAfro2 #infoBox2 #source2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 8vh;
+    }
+
+    #imgAfro3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 195vh;
+    }
+    
+    #imgAfro3 #boxImg3 img {
+        width: 90vw;
+        height: 70vh;
+    }
+
+    #imgAfro3 #boxImg3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        height: 90vh;
+    }
+    
+    #imgAfro3 #infoBox3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+    }
+    
+    #imgAfro3 #infoBox3 #boxText3 {
+        width: 90vw;
+        text-align: justify;
+    }
+    
+    #imgIndi1 {
+        flex-direction: column;
+        height: 170vh;
+    }
+    
+    #imgIndi1 #boxImgIndi1 #cocar {
+        width: 90vw;
+        height: 64vh;
+        border-radius: 15px;
+    }
+
+    #imgIndi1 #boxImgIndi1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 75vh;
+    }
+    
+    #imgIndi1 #infoBoxIndi1 {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 90vh;
+    }
+    
+    #infoBoxIndi1 #boxTextIndi1 {
+        width: 90vw;
+        text-align: justify;
+    }
+
+    #imgIndi2 {
+        flex-direction: column-reverse;
+        height: 170vh;
+    }
+    
+    #imgIndi2 #boxImgIndi2 img {
+        width: 90vw;
+        height: 64vh;
+    }
+
+    #imgIndi2 #boxImgIndi2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 73vh;
+    }
+    
+    #imgIndi2 #infoBoxIndi2 {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 70vh;
+    }
+    
+    #infoBoxIndi2 #boxTextIndi2 {
+        width: 90vw;
+        text-align: justify;
+    }
+
+    #imgIndi3 {
+        flex-direction: column;
+        height: 170vh;
+    }
+    
+    #imgIndi3 #boxImgIndi3 img {
+        width: 90vw;
+        height: 64vh;
+        border-radius: 15px;
+    }
+
+    #imgIndi3 #boxImgIndi3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 75vh;
+    }
+    
+    #imgIndi3 #infoBoxIndi3 {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 90vh;
+    }
+    
+    #infoBoxIndi3 #boxTextIndi3 {
+        width: 90vw;
+        text-align: justify;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #collectionObjects #boxNamePage {
+        width: 100%;
+        height: 73vh;
+        text-align: center;
+    }
+
+    .titleSection {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 55%;
+    }
+
+    .titleSection span {
+        width: 37%;
+    }
+
+    #collectionAfro #imgAfro1 {
+        height: 60vh;
+    }
+
+    #imgAfro1 #boxImg1 {
+        width: 40vw;
+        height: 50vh;
+    }
+
+    #imgAfro1 #boxImg1 img {
+        width: 39vw;
+        height: 45vh;
+    }
+
+    #imgAfro2 {
+        height: 70vh;
+    }
+
+    #imgAfro2 #boxImg2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 46vw;
+        height: 50vh;
+    }
+
+    #imgAfro2 #boxImg2 img {
+        width: 45vw;
+        height: 40vh;
+    }
+
+    #imgAfro3 {
+        height: 70vh;
+    }
+
+    #imgAfro3 #boxImg3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 46vw;
+        height: 52vh;
+    }
+
+    #imgAfro3 #boxImg3 img {
+        width: 45vw;
+        height: 45vh;
+    }
+
+    #imgIndi1 {
+        height: 60vh;
+    }
+    
+    #imgIndi1 #boxImgIndi1 #cocar {
+        width: 42vw;
+        height: 45vh;
+        border-radius: 15px;
+    }
+    
+    #imgIndi1 #boxImgIndi1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 45vw;
+        height: 50vh;
+        border-radius: 15px;
+    }
+
+    #imgIndi2 {
+        height: 58vh;
+    }
+    
+    #imgIndi2 #boxImgIndi2 img {
+        width: 42vw;
+        height: 40vh;
+        border-radius: 15px;
+    }
+    
+    #imgIndi2 #boxImgIndi2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 45vw;
+        height: 45vh;
+        border-radius: 15px;
+    }
+
+    #imgIndi3 {
+        height: 58vh;
+    }
+    
+    #imgIndi3 #boxImgIndi3 img {
+        width: 42vw;
+        height: 40vh;
+        border-radius: 15px;
+    }
+    
+    #imgIndi3 #boxImgIndi3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 45vw;
+        height: 45vh;
+        border-radius: 15px;
+    }
+}
